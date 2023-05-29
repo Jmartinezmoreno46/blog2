@@ -6,8 +6,8 @@
 
         @foreach ($posts as $post)
 
-            <x-card-post :post="$post" /> {{-- aqui le pasamos al componente la variable post --}}
-            
+            <x-card-post :post="$post"> {{-- aqui le pasamos al componente la variable post --}}
+            </x-card-post>
         @endforeach
 
         <div class="mt-4">
